@@ -53,7 +53,7 @@ const DisplayCryptoSingle = () => {
           <p className="text-2xl text-center">
             {singleDisplay?.name}
             <span className="uppercase ml-1">
-              ({singleDisplay?.symbol} / {singleDisplay?.tickers[0]?.target})
+              ({singleDisplay?.symbol})
             </span>
           </p>
         </div>
